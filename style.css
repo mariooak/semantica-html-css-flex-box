@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: 0; */
+  
+}
+
+body img{
+    width: 30%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+.header-principal{
+    background-color: darkkhaki;
+}
+
+.section{
+flex: 2;
+background-color: aquamarine;
+
+}
+.aside{
+flex: 1;
+background-color: bisque;
+}
+.footer{
+    text-align: center;
+    background-color: blue;
+    color: azure;
+}
